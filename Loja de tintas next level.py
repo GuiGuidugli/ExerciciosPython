@@ -1,5 +1,4 @@
 import math
-
 Area = int(input("Qual a medida da area a ser pintada em metros quadrados? "))
 AreaStr = str(Area)
 newArea = Area * 1.1 #Esta fórmula define 10% de folga para a área recebida#
@@ -21,3 +20,4 @@ totalGaloes = galoesNecessarios * precoGalao
 total = totalLatas + totalGaloes
 
 print (f'Serão necessárias {latasNecessarias} lata(s) de tinta e {math.ceil(galoesNecessarios)} galão(ões) de tinta para cobrir a área a ser pintada; e o preço total é {total:.1f}')
+
